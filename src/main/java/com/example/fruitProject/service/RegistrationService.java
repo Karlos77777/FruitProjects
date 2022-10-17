@@ -1,10 +1,11 @@
 package com.example.fruitProject.service;
 
-import com.example.demo.appuser.AppUser;
-import com.example.demo.appuser.AppUserRole;
-import com.example.demo.email.EmailSender;
-import com.example.demo.registration.token.ConfirmationToken;
-import com.example.demo.registration.token.ConfirmationTokenService;
+import com.example.fruitProject.model.AppUser;
+import com.example.fruitProject.model.AppUserRole;
+import com.example.fruitProject.model.EmailSender;
+import com.example.fruitProject.model.ConfirmationToken;
+import com.example.fruitProject.service.ConfirmationTokenService;
+import com.example.fruitProject.model.*;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

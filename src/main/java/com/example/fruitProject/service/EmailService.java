@@ -1,4 +1,4 @@
-package com.example.fruitProject.controllers.
+package com.example.fruitProject.service;
 
 import com.example.fruitProject.model.EmailSender;
 import lombok.AllArgsConstructor;
